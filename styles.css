@@ -44,7 +44,7 @@ li {
     padding: 10px;
 }
 
-li:active {
+ul li:active {
     background: #D18076;
 }
 
@@ -73,6 +73,16 @@ input:hover {
     content: ")";
 }
 
-[type="checkbox"]:checked {
+[type="checkbox"]:checked + p {
     text-decoration: line-through;
+}
+
+li:hover {
+    background-color: #635e7a;
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+}
+
+p {
+    display: inline;
 }
